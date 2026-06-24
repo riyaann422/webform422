@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>📝 User Registration Form</h1>
+      <p>Fill your details carefully</p>
+    </div>
+
+    <form id="userForm">
+
+      <input type="text" placeholder="Full Name" required>
+
+      <input type="email" placeholder="Email Address" required>
+
+      <input type="tel" placeholder="Phone Number (10 digits)" required>
+
+      <input type="date" required>
+
+      <div class="section">
+        <h3>Gender:</h3>
+
+        <label><input type="radio" name="gender"> Male</label><br>
+        <label><input type="radio" name="gender"> Female</label><br>
+        <label><input type="radio" name="gender"> Other</label>
+      </div>
+
+      <div class="section">
+        <h3>Skills:</h3>
+
+        <label><input type="checkbox"> HTML</label><br>
+        <label><input type="checkbox"> CSS</label><br>
+        <label><input type="checkbox"> JavaScript</label><br>
+        <label><input type="checkbox"> React</label>
+      </div>
+
+      <textarea rows="4" placeholder="Tell something about yourself..."></textarea>
+
+      <input type="password" placeholder="Password (min 6 chars)" required>
+
+      <button type="submit">Submit</button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
